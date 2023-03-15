@@ -168,28 +168,18 @@ console.log(map1);
 * Git sauvegarde des versions de  codes de manières instantanée
 * Il faut sauvegarder très fréquemment
 
-## Initialiser un dépôt Git
+## Initialiser un dépôt Git --> GitHub
 ```js
-mkdir nomDossier
-git init //Initialiser un dépôt dans le dossier courant
+$ mkdir nomDossier
+$ git init //Initialiser un dépôt dans le dossier courant
+$ git add .
+$ git commit -m "Mon premier commit" 
+//Créer le projet sur Github.com
+//Copier le lien .git
+$ git remote add origin "lien.git" 
+$ git remote -v
+$ git push origin master
 ```
-
-
-## Commande sur Gitbash (LOCAL)
-```
-echo "# D-p-t-test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/rompif/D-p-t-test.git
-git push -u origin main
-```
-```
-git status (Etat du dépôt)
-gid add .
-```
-
 ## DOM
 * Représentation hiérarchique d'un document HTML
 
