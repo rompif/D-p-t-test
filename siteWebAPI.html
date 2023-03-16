@@ -70,12 +70,7 @@
           console.log(cocktailList)
       })
 
-      
-
-
-
-
-      function fetchSomePokemons() {
+        function fetchSomePokemons() {
         return fetch("https://pokeapi.co/api/v2/pokemon?limit=150");
      }
       const pokemons = fetchSomePokemons().then((httpResponse) => {
